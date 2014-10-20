@@ -1,0 +1,34 @@
+telnet mi-mdw.appspot.com 80
+
+POST /httpTelnet2/ HTTP/1.1
+Host: mi-mdw.appspot.com
+Referer: mi-mdw
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 8
+data=fit
+
+result:
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Date: Sun, 19 Oct 2014 19:45:36 GMT
+Server: Google Frontend
+Cache-Control: private
+Alternate-Protocol: 80:quic,p=0.01
+Transfer-Encoding: chunked
+
+5c
+<html>
+      <head>
+            <title>MI-MDW</title>
+                                 </head>
+                                        <body>
+                                              <h1>MI-MDW</h1>
+                                                             <p>
+                                                                </p>
+                                                                    </body>
+                                                                           </htm
+l>
+
+0
