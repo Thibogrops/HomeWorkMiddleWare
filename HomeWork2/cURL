@@ -1,0 +1,54 @@
+
+D:\Cours\TSE\FI3\semestre Prague\Middleware\homework 2\curl-7.38.0-win32\bin>cur
+l http://mi-mdw.appspot.com/protocol/welcome
+OK
+Your next page is /protocol/get
+send GET parameter "name" with value "pointer"
+set Header "Accept" to "text/plain"
+
+D:\Cours\TSE\FI3\semestre Prague\Middleware\homework 2\curl-7.38.0-win32\bin>cur
+l http://mi-mdw.appspot.com/protocol/get?name=pointer -H"Accept: text/plain"
+
+OK
+Your next page is /protocol/post
+send POST parameter "name" with value "aveling"
+and set Header "Accept" is "text/plain"
+and set Header "Accept-Language" is "en-US"
+
+
+D:\Cours\TSE\FI3\semestre Prague\Middleware\homework 2\curl-7.38.0-win32\bin>cur
+l http://mi-mdw.appspot.com/protocol/post -dname=aveling -H"Accept: text/plain"
+-H"Accept-Language: en-US"
+OK
+Your next page is /protocol/referer
+change referer to value "admitting"
+set Header "Accept" is "text/html"
+
+D:\Cours\TSE\FI3\semestre Prague\Middleware\homework 2\curl-7.38.0-win32\bin>cur
+l http://mi-mdw.appspot.com/protocol/referer -e"admitting" -H"Accept: text/html"
+
+OK
+Your next page is /protocol/useragent
+and change User-Agent to value "incoherent"
+and set Header "Accept-Language" is "en-US"
+
+D:\Cours\TSE\FI3\semestre Prague\Middleware\homework 2\curl-7.38.0-win32\bin>cur
+l http://mi-mdw.appspot.com/protocol/useragent -A"incoherent" -H"Accept-Language
+: en-US"
+OK
+Your next page is /protocol/cookie
+send cookie called "name" with value "charge"
+
+
+D:\Cours\TSE\FI3\semestre Prague\Middleware\homework 2\curl-7.38.0-win32\bin>cur
+l http://mi-mdw.appspot.com/protocol/cookie -b"name=charge"
+OK
+Your next page is /protocol/auth
+authenticate by "violently:tx"
+set Header "Accept" is "text/html"
+
+D:\Cours\TSE\FI3\semestre Prague\Middleware\homework 2\curl-7.38.0-win32\bin>cur
+l http://mi-mdw.appspot.com/protocol/auth -u"violently:tx" -H"Accept: text/html"
+
+OK
+Your final result is: boss
