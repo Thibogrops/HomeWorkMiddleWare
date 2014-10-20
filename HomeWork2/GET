@@ -1,0 +1,29 @@
+telnet mi-mdw.appspot.com 80
+
+GET /httpTelnet1/ HTTP/1.0
+Host: mi-mdw.appspot.com
+User-Agent: fit-telnet
+Content-Type: text/html; charset=UTF-8
+Accept-Language: en-US
+
+result : 
+
+HTTP/1.0 200 OK
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Date: Sun, 19 Oct 2014 19:46:27 GMT
+Server: Google Frontend
+Cache-Control: private
+Alternate-Protocol: 80:quic,p=0.01
+
+<html>
+      <head>
+            <title>MI-MDW</title>
+                                 </head>
+                                        <body>
+                                              <h1>MI-MDW</h1>
+                                                             <p>
+                                                                </p>
+                                                                    </body>
+                                                                           </htm
+l>
