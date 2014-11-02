@@ -1,0 +1,11 @@
+D:\Cours\TSE\FI3\semestre Prague\Middleware\homework 2\curl-7.38.0-win32\bin>cur
+l http://localhost:7001/HomeWork32/NewServlet -c "cookies.txt"
+To continue the payment : http://localhost:7001/HomeWork32/Payment
+
+D:\Cours\TSE\FI3\semestre Prague\Middleware\homework 2\curl-7.38.0-win32\bin>cur
+l http://localhost:7001/HomeWork32/Payment -c "cookies2.txt" -b "cookies.txt"
+To finalize your payment ://localhost:7001/HomeWork3/Completed
+
+D:\Cours\TSE\FI3\semestre Prague\Middleware\homework 2\curl-7.38.0-win32\bin>cur
+l http://localhost:7001/HomeWork32/Completed -b "cookies2.txt"
+Payment completed
